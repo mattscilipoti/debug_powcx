@@ -1,0 +1,10 @@
+OSX version 10.11.3
+pow version 0.5.0
+
+- failed: uninstalling and reinstalling
+- failed: using powder gem
+- reviewed https://github.com/basecamp/pow/issues/507
+- reviewed http://pow.cx/manual.html#section_3.2
+- reviewed http://stackoverflow.com/questions/27490681/how-can-i-check-if-pow-is-running-correctly-on-my-mac-how-can-i-get-it-running
+- created pow_status.sh
+- Created https://github.com/basecamp/pow/issues/525

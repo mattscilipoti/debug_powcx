@@ -1,0 +1,6 @@
+
+$ dns-sd -G v4 garnet.dev
+DATE: ---Wed 16 Mar 2016---
+17:36:28.941  ...STARTING...
+Timestamp     A/R Flags if Hostname                               Address                                      TTL
+17:36:28.942  Add     2 -1 garnet.dev.                            127.0.0.1                                    1

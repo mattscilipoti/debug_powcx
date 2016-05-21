@@ -1,0 +1,15 @@
+
+$ /Users/matt/Library/Application Support/Pow/Current/bin/pow --print-config
+(node) util.puts is deprecated. Use console.log instead.
+POW_BIN='/Users/matt/Library/Application Support/Pow/Versions/0.5.0/bin/pow'
+POW_DST_PORT='80'
+POW_HTTP_PORT='20559'
+POW_DNS_PORT='20560'
+POW_TIMEOUT='900'
+POW_WORKERS='2'
+POW_DOMAINS='dev'
+POW_EXT_DOMAINS=''
+POW_HOST_ROOT='/Users/matt/Library/Application Support/Pow/Hosts'
+POW_LOG_ROOT='/Users/matt/Library/Logs/Pow'
+POW_RVM_PATH='/Users/matt/.rvm/scripts/rvm'
+

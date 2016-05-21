@@ -1,0 +1,84 @@
+
+$ scutil --dns
+DNS configuration
+
+resolver #1
+  search domain[0] : home
+  nameserver[0] : 192.168.1.1
+  nameserver[1] : 8.8.8.8
+  nameserver[2] : 8.8.4.4
+  flags    : Request A records
+Reachable, Directly Reachable Address
+
+resolver #2
+  domain   : local
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+Not Reachable
+  order    : 300000
+
+resolver #3
+  domain   : 254.169.in-addr.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+Not Reachable
+  order    : 300200
+
+resolver #4
+  domain   : 8.e.f.ip6.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+Not Reachable
+  order    : 300400
+
+resolver #5
+  domain   : 9.e.f.ip6.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+Not Reachable
+  order    : 300600
+
+resolver #6
+  domain   : a.e.f.ip6.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+Not Reachable
+  order    : 300800
+
+resolver #7
+  domain   : b.e.f.ip6.arpa
+  options  : mdns
+  timeout  : 5
+  flags    : Request A records
+Not Reachable
+  order    : 301000
+
+resolver #8
+  domain   : dev
+  nameserver[0] : 127.0.0.1
+  port     : 20560
+  flags    : Request A records, Request AAAA records
+Reachable, Local Address, Directly Reachable Address
+
+resolver #9
+  domain   : kite
+  nameserver[0] : 172.17.42.1
+  flags    : Request A records
+Reachable
+
+DNS configuration (for scoped queries)
+
+resolver #1
+  search domain[0] : home
+  nameserver[0] : 192.168.1.1
+  nameserver[1] : 8.8.8.8
+  nameserver[2] : 8.8.4.4
+  if_index : 4 (en0)
+  flags    : Scoped, Request A records
+Reachable, Directly Reachable Address
+
